@@ -15,6 +15,6 @@ export const Navbar = ({ className }: NavbarProps) => {
             </div>
         </div>
     )
-}
+} 
 
 
