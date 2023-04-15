@@ -1,6 +1,15 @@
 .Sidebar{
-    width: 300px;
+    width: var(--sidebar-width);
     position: relative;
     height: calc(100vh - var(--navbar-height));
     background-color: var(--inverted-bg-color);
+    transition: width .3s;
+}
+
+.collapsed{
+    width: var(--collapsed-sidebar-width);
+}
+
+.langSwitcher{
+    margin-left: 20px;
 }
